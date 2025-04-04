@@ -7,6 +7,7 @@ public class TestCalculator {
     public void testAdd(){
         Calculator c = new Calculator();
         Assert.assertEquals(7,c.add(2,5));
+        System.out.println("TestFeatureBranch");
     }
 
 }
